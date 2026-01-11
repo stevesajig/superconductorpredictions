@@ -1,6 +1,7 @@
 **Tc prediction model**
 
 A RandomForestRegressor is trained on the scaled descriptors to predict critical_temp, using an 80/20 train–validation split. On the validation set, the model achieves a mean squared error of about 80.6 K² (RMSE ≈ 9 K) and a coefficient of determination R2≈0.93, indicating that the descriptors capture most of the variance in Tc and that the regressor is a strong baseline predictor.
+
 ​
 **Variational autoencoder**
 
